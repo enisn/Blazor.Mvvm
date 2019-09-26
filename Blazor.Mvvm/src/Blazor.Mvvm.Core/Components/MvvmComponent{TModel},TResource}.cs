@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Blazor.Mvvm.Core.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -42,6 +43,7 @@ namespace Blazor.Mvvm.Core.Components
             if (this.Title == null)
                 return;
 
+            var title = this.Title?.Compile()?.Invoke();
             await LayoutModifier.SetTitleAsync(title + " - " + titleSuffix);
         }
     }
