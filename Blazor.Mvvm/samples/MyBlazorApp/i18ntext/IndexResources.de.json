@@ -1,0 +1,6 @@
+{
+  "hello": "Hallo Welt!",
+  "welcome": "Willkommen zu deiner neuen App.",
+  "surveyTitle": "Wie arbeitet Blazor für Sie?",
+  "showHide": "Anzeigen Ausblenden"
+}

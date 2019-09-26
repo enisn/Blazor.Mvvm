@@ -1,0 +1,5 @@
+{
+  "weatherForecast": "Weather forecast",
+  "description": "This component demonstrates fetching data from the server.",
+  "loading": "loading..."
+}

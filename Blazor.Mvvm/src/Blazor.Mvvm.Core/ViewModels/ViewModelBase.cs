@@ -17,6 +17,12 @@ namespace Blazor.Mvvm.Core.ViewModels
 
         // Observer Pattern
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public virtual Task InitializeAsync()
+        {
+            return Task.CompletedTask;
+        }
+
         /// <summary>
         /// Raises <see cref="PropertyChanged"/> event with called member name.
         /// </summary>

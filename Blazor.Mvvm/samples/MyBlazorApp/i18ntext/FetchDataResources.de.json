@@ -1,0 +1,5 @@
+{
+  "weatherForecast": "Wettervorhersage",
+  "description": "Diese Komponente demonstriert das Abrufen von Daten vom Server.",
+  "loading": "Wird geladen..."
+}

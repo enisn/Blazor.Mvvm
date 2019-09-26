@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@inherits MvvmComponent<IndexViewModel, IndexResources>
+
+@{
+    Title = () => Resources.hello;
+}
+
+<h1>@Resources.hello</h1>
+
+@Resources.welcome
+
+
+@if (Model.IsSurveyVisible)
+{
+    <SurveyPrompt Title="@Resources.surveyTitle" />
+}
+
+<button @onclick="Model.SwitchSurveyVisibility">@Resources.showHide</button>

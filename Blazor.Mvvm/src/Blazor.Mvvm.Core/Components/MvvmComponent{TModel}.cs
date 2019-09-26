@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 using Blazor.Mvvm.Core.Attributes;
+using Blazor.Mvvm.Core.Abstractions.Binding;
 
 namespace Blazor.Mvvm.Core.Components
 {
@@ -33,6 +34,9 @@ namespace Blazor.Mvvm.Core.Components
                 // TODO: Render entire component until solution of https://github.com/aspnet/AspNetCore/issues/6647
                 if (value is INotifyPropertyChanged notifyable)
                     notifyable.PropertyChanged += (s, e) => StateHasChanged();
+
+                if (value is IViewModelBase vmBase)
+                    Task.Run(async () => await vmBase.InitializeAsync());
             }
         }
 

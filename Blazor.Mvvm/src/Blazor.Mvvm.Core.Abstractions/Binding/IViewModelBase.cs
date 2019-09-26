@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Blazor.Mvvm.Core.Abstractions.Binding
 {
     public interface IViewModelBase
-    {        
+    {
+        Task InitializeAsync();
     }
 }
