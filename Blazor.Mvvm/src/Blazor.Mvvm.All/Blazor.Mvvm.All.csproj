@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blazor.Mvvm.Caching\Blazor.Mvvm.Caching.csproj" />
+    <ProjectReference Include="..\Blazor.Mvvm.Core.Abstractions\Blazor.Mvvm.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Blazor.Mvvm.Core\Blazor.Mvvm.Core.csproj" />
+    <ProjectReference Include="..\Blazor.Mvvm.FluentValidation\Blazor.Mvvm.FluentValidation.csproj" />
+  </ItemGroup>
+
+</Project>

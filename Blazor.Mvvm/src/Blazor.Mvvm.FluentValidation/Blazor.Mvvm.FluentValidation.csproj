@@ -6,21 +6,15 @@
     <RazorLangVersion>3.0</RazorLangVersion>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-  </PropertyGroup>
-
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview9.19424.4" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview9.19424.4" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview9.19424.4" PrivateAssets="all" />
-    <PackageReference Include="Toolbelt.Blazor.HotKeys" Version="7.0.0" />
-    <PackageReference Include="Toolbelt.Blazor.I18nText" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Blazor.Mvvm.Core.Abstractions\Blazor.Mvvm.Core.Abstractions.csproj" />
-    <ProjectReference Include="..\Blazor.Mvvm.Web\Blazor.Mvvm.Web.csproj" />
+    <ProjectReference Include="..\Blazor.Mvvm.Core\Blazor.Mvvm.Core.csproj" />
   </ItemGroup>
 
 </Project>
