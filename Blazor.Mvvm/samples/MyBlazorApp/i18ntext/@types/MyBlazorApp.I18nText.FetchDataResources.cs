@@ -10,6 +10,9 @@ namespace MyBlazorApp.I18nText
         /// <summary>"This component demonstrates fetching data from the server."</summary>
         public string description;
 
+        /// <summary>"Something went wrong :("</summary>
+        public string error;
+
         /// <summary>"loading..."</summary>
         public string loading;
 

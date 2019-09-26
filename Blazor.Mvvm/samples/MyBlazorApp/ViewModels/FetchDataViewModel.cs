@@ -22,6 +22,7 @@ namespace MyBlazorApp.ViewModels
 
         public override async Task InitializeAsync()
         {
+            Console.WriteLine("Initialized");
             this.IsBusy = true;
             this.Forecasts = await http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
             this.IsBusy = false;

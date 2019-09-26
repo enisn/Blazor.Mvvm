@@ -24,7 +24,7 @@ namespace Blazor.Mvvm.Core.Components
                 titleSuffix = this.GetType().Assembly.GetName().Name;
         }
         private Expression<Func<string>> title;
-        public Expression<Func<string>> Title { get => title; set { title = value; UpdateTitleAsync(); } }
+        public new Expression<Func<string>> Title { get => title; set { title = value; UpdateTitleAsync(); } }
         public TResource Resources { get; private set; } = new TResource();
         protected override async Task OnInitializedAsync()
         {
