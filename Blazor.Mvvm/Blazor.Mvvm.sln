@@ -9,19 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB3A696D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{248EEB64-0012-4A27-A625-0777CEFD1D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.Core", "src\Blazor.Mvvm.Core\Blazor.Mvvm.Core.csproj", "{D283BEC9-C6A8-4D86-8BF2-F3BF6BBEBD71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.Core", "src\Blazor.Mvvm.Core\Blazor.Mvvm.Core.csproj", "{D283BEC9-C6A8-4D86-8BF2-F3BF6BBEBD71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.Core.Abstractions", "src\Blazor.Mvvm.Core.Abstractions\Blazor.Mvvm.Core.Abstractions.csproj", "{94575390-44AD-4643-AC31-23727BD04097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.Core.Abstractions", "src\Blazor.Mvvm.Core.Abstractions\Blazor.Mvvm.Core.Abstractions.csproj", "{94575390-44AD-4643-AC31-23727BD04097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.Web", "src\Blazor.Mvvm.Web\Blazor.Mvvm.Web.csproj", "{660596B9-7FAB-4916-9F64-5D0AFCC4512D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.Web", "src\Blazor.Mvvm.Web\Blazor.Mvvm.Web.csproj", "{660596B9-7FAB-4916-9F64-5D0AFCC4512D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.Caching", "src\Blazor.Mvvm.Caching\Blazor.Mvvm.Caching.csproj", "{B4363EB7-7958-4906-85E2-22F542A376C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.Caching", "src\Blazor.Mvvm.Caching\Blazor.Mvvm.Caching.csproj", "{B4363EB7-7958-4906-85E2-22F542A376C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.FluentValidation", "src\Blazor.Mvvm.FluentValidation\Blazor.Mvvm.FluentValidation.csproj", "{AE595AE7-688B-461C-9C1A-55798261DC47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.FluentValidation", "src\Blazor.Mvvm.FluentValidation\Blazor.Mvvm.FluentValidation.csproj", "{AE595AE7-688B-461C-9C1A-55798261DC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Mvvm.All", "src\Blazor.Mvvm.All\Blazor.Mvvm.All.csproj", "{743771B9-C0A1-4C13-B348-5A9A67715129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Mvvm.All", "src\Blazor.Mvvm.All\Blazor.Mvvm.All.csproj", "{743771B9-C0A1-4C13-B348-5A9A67715129}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorApp", "samples\MyBlazorApp\MyBlazorApp.csproj", "{1E957942-52DC-41C7-B3C3-54FD60D2CD5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A58FC9D-AD5F-410F-8AFD-5E2CA5A9847A}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

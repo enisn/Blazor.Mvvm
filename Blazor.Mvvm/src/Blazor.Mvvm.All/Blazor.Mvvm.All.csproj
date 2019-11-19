@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>enisn</Authors>
+    <Description>A simple light Mvvm Framework for Blazor WebAssembly</Description>
+    <Copyright>enisn</Copyright>
+    <PackageProjectUrl>https://github.com/enisn/Blazor.Mvvm</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/enisn/Blazor.Mvvm</RepositoryUrl>
+    <PackageTags>Blazor,Mvvm,Blazor Mvvm,Framework</PackageTags>
+    <PackageReleaseNotes>Relased</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

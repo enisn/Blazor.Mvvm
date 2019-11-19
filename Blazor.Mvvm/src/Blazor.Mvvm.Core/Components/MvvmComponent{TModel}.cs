@@ -37,9 +37,7 @@ namespace Blazor.Mvvm.Core.Components
 
                 if (value is IViewModelBase vmBase)
                 {
-                    Console.WriteLine("Before Task Run");
                     Task.Run(async () => await vmBase.InitializeAsync());
-                    Console.WriteLine("After Task Run");
                 }
             }
         }

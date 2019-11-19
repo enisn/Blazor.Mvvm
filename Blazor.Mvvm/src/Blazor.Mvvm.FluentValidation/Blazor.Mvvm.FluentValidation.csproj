@@ -4,13 +4,22 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.3</LangVersion>
     <RazorLangVersion>3.0</RazorLangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>enisn</Authors>
+    <Description>A simple light Mvvm Framework for Blazor WebAssembly</Description>
+    <Copyright>enisn</Copyright>
+    <PackageProjectUrl>https://github.com/enisn/Blazor.Mvvm</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/enisn/Blazor.Mvvm</RepositoryUrl>
+    <PackageTags>Blazor,Mvvm,Blazor Mvvm,Framework</PackageTags>
+    <PackageReleaseNotes>Relased</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.5.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview9.19424.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview9.19424.4" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview9.19424.4" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview9.19465.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview9.19465.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview9.19465.2" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
